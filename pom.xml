@@ -23,6 +23,14 @@
             <name>qncentury-nexus</name>
             <url>http://maven.qncentury.com/nexus/content/repositories/thirdparty</url>
         </repository>
+        <repository>
+            <id>jasperreports</id>
+            <url>http://jasperreports.sourceforge.net/maven2</url>
+        </repository>
+        <repository>
+            <id>jaspersoft-third-party</id>
+            <url>https://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
+        </repository>
     </repositories>
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
